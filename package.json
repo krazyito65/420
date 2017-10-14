@@ -1,0 +1,29 @@
+{
+  "name": "420-bot",
+  "version": "1.0.0",
+  "description": "bot to remind you when its 420",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "fs": "0.0.1-security",
+    "libsodium-wrappers": "^0.5.4",
+    "moment": "^2.19.1",
+    "moment-timezone": "^0.5.13",
+    "opusscript": "^0.0.3",
+    "uws": "^0.14.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krazyito65/420.git"
+  },
+  "author": "krazyito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krazyito65/420/issues"
+  },
+  "homepage": "https://github.com/krazyito65/420#readme"
+}
