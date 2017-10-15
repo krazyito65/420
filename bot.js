@@ -6,12 +6,12 @@ const moment = require('moment-timezone');
 const data = fs.readFileSync('token', "utf8");
 const token =  data.toString().trim();
 
-const entryMessage = "<@&368870506482368522> It's time."
+const entryMessage = "<@&250369565677060097> It's time."
 const channelID = "249348258780938240"
 
 //test ID for bronze 6 general"259888294039388160"
-//mx id = 249348258780938240
-
+//mx id = <@&250369565677060097>
+//mx channel id = 249348258780938240
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
